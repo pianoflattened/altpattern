@@ -2,7 +2,7 @@
 
 this is a library that will let you use the pipe `|` alternator as a magic
 character in lua's [native pattern matching functions][docs]. you can use it 
-like this:
+like this (maybe come up with a better example lol):
 ```lua
 require("altpattern"):overload()
 
