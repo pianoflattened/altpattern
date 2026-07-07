@@ -38,8 +38,8 @@ capture the full quantified match. what you really want to worry about is
 the kind of expression which includes a capture group inside the non-
 capturing parentheses, like in `(a|(b)c)+`. this kind of expression will 
 just throw an error. i dont really even know what the expected behavior of 
-this kind of pattern would be, as i am not a regex genius. i do know that 
-it likely would produce an arbitrary number of capture groups that is 
+this kind of pattern would be. im not a regex genius. i do know that it 
+likely would produce an arbitrary number of capture groups that is 
 impossible to predict without the subject string. whatever string 
 manipulation that you might be used to getting for free by capturing inside 
 quantified alternated groups, you will have to do it manually or use
