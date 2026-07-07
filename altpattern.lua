@@ -506,10 +506,10 @@ function M:overload(t)
         t.match  = rawmatch
     end
 
-    string.find   = M.find
-    string.gmatch = M.gmatch
-    string.gsub   = M.gsub
-    string.match  = M.match
+    string.find   = self.find
+    string.gmatch = self.gmatch
+    string.gsub   = self.gsub
+    string.match  = self.match
 end
 
 return M
